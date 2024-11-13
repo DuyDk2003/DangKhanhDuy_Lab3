@@ -85,7 +85,7 @@ namespace DangKhanhDuy_Lab3.Controllers
             {
                 Menus = menus,
                 Blogs = blogs,
-                Prods = prods,
+                Prods = prods,//hhhh
             };
             return View(viewModel);
         }
