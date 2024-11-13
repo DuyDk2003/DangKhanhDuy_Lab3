@@ -1,0 +1,22 @@
+﻿@model DangKhanhDuy_Lab3.ViewModels.BlogViewModel
+<div class="panel panel-primary">
+    <div class="panel-heading panel-heading-prod"><i class="fa fa-spinner fa-spin"></i> Tất cả bài viết</div>
+    <div class="panel-body">
+        <div class="panel-body panel-body-post">
+            @foreach (var item in Model.Blogs)
+            {
+                <h4><a href="/bai-viet/@item.Link-@item.IdBlog">@item.Title</a></h4>
+                <p>@item.Description</p>
+            }
+        </div>
+    </div>
+    <div class="panel-footer text-center">
+        <ul class="pagination pagination-centered">
+            <li class="active"><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+        </ul>
+    </div>
+</div>
