@@ -28,4 +28,5 @@ public partial class Blog
     public virtual User? IdUsersNavigation { get; set; }
     //hahs
     //ok chưa
+    // thú vị nè
 }
