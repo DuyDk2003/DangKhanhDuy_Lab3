@@ -26,4 +26,5 @@ public partial class Blog
     public int? IdUsers { get; set; }
 
     public virtual User? IdUsersNavigation { get; set; }
+    //hahs
 }
