@@ -29,4 +29,6 @@ public partial class Blog
     //hahs
     //Hay quá
     // thú vị nè
+    // master nè
+    // ahuhu
 }
