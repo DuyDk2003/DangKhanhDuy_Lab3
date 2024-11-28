@@ -34,4 +34,5 @@ public partial class Blog
     //pull request
     //test kieu moi merge nè
     //ok rồi
+    //lamf laij nef
 }
