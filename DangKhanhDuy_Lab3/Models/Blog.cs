@@ -33,4 +33,5 @@ public partial class Blog
     // ahuhu
     //pull request
     //test kieu moi merge nè
+    //ok rồi
 }
