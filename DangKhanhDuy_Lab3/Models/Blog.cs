@@ -32,4 +32,5 @@ public partial class Blog
     // master nè
     // ahuhu
     //pull request
+    //test kieu moi merge nè
 }
